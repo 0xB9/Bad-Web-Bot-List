@@ -389,3 +389,9 @@ deny from 65.222.185.72/29
 Deny from env=bad_bot
 </Limit>
 </IfModule>
+
+# Block requests with blank User-Agent
++<IfModule mod_rewrite.c>
++RewriteCond %{HTTP_USER_AGENT} ^$ [NC]
++RewriteRule .* - [F]
++</IfModule>

@@ -156,6 +156,7 @@ SetEnvIfNoCase User-Agent "^Golem/1.1" bad_bot
 SetEnvIfNoCase User-Agent "^gotit" bad_bot
 SetEnvIfNoCase User-Agent "^GrabNet" bad_bot
 SetEnvIfNoCase User-Agent "^Grafula" bad_bot
+SetEnvIfNoCase User-Agent "^grapeshot" bad_bot
 SetEnvIfNoCase User-Agent "^Gromit/1.0" bad_bot
 SetEnvIfNoCase User-Agent "^grub" bad_bot
 SetEnvIfNoCase User-Agent "^HappyFunBot" bad_bot
@@ -223,140 +224,369 @@ SetEnvIfNoCase User-Agent "^larbin_2.6.2 (listonATccDOTgatechDOTedu)" bad_bot
 SetEnvIfNoCase User-Agent "^larbin_2.6.2 (vitalbox1@hotmail.com)" bad_bot
 SetEnvIfNoCase User-Agent "^larbin_2.6.2 kabura@sushi.com" bad_bot
 SetEnvIfNoCase User-Agent "^larbin_2.6.2 larbin2.6.2@unspecified.mail" bad_bot
+SetEnvIfNoCase User-Agent "^larbin_2.6.2 larbin@correa.org" bad_bot
+SetEnvIfNoCase User-Agent "^larbin_2.6.2 listonATccDOTgatechDOTedu" bad_bot
+SetEnvIfNoCase User-Agent "^larbin_2.6.2 vitalbox1@hotmail.com" bad_bot
+SetEnvIfNoCase User-Agent "^LeechFTP" bad_bot
 SetEnvIfNoCase User-Agent "^LexiBot" bad_bot
 SetEnvIfNoCase User-Agent "^lftp" bad_bot
 SetEnvIfNoCase User-Agent "^libWeb/clsHTTP" bad_bot
 SetEnvIfNoCase User-Agent "^likse" bad_bot
 SetEnvIfNoCase User-Agent "^LinkextractorPro" bad_bot
+SetEnvIfNoCase User-Agent "^linklooker" bad_bot
+SetEnvIfNoCase User-Agent "^LinkScan/8.1a Unix" bad_bot
 SetEnvIfNoCase User-Agent "^LinkScan/8.1a.Unix" bad_bot
 SetEnvIfNoCase User-Agent "^LinkWalker" bad_bot
 SetEnvIfNoCase User-Agent "^LNSpiderguy" bad_bot
 SetEnvIfNoCase User-Agent "^LWP::Simple" bad_bot
 SetEnvIfNoCase User-Agent "^lwp-trivial" bad_bot
+SetEnvIfNoCase User-Agent "^lwp-trivial/1.34" bad_bot
 SetEnvIfNoCase User-Agent "^Mag-Net" bad_bot
 SetEnvIfNoCase User-Agent "^Magnet" bad_bot
 SetEnvIfNoCase User-Agent "^MarkWatch" bad_bot
 SetEnvIfNoCase User-Agent "^Mass\ Downloader" bad_bot
+SetEnvIfNoCase User-Agent "^Mass Downloader/2.2" bad_bot
+SetEnvIfNoCase User-Agent "^Mata Hari" bad_bot
 SetEnvIfNoCase User-Agent "^Mata.Hari" bad_bot
+SetEnvIfNoCase User-Agent "^MediaFox/x.y" bad_bot
 SetEnvIfNoCase User-Agent "^Memo" bad_bot
-SetEnvIfNoCase User-Agent "^Microsoft.URL" bad_bot
+SetEnvIfNoCase User-Agent "^MerzScope" bad_bot
+SetEnvIfNoCase User-Agent "^METAGOPHER" bad_bot
 SetEnvIfNoCase User-Agent "^Microsoft\ URL\ Control" bad_bot
+SetEnvIfNoCase User-Agent "^Microsoft URL Control" bad_bot
+SetEnvIfNoCase User-Agent "^Microsoft URL Control - 5.01.4511" bad_bot
+SetEnvIfNoCase User-Agent "^Microsoft URL Control - 6.00.8169" bad_bot
+SetEnvIfNoCase User-Agent "^Microsoft.URL" bad_bot
 SetEnvIfNoCase User-Agent "^MIDown\ tool" bad_bot
+SetEnvIfNoCase User-Agent "^MIDown tool" bad_bot
 SetEnvIfNoCase User-Agent "^MIIxpc" bad_bot
+SetEnvIfNoCase User-Agent "^MIIxpc/4.2" bad_bot
 SetEnvIfNoCase User-Agent "^Mirror" bad_bot
 SetEnvIfNoCase User-Agent "^Missigua\ Locator" bad_bot
 SetEnvIfNoCase User-Agent "^Mister\ PiX" bad_bot
+SetEnvIfNoCase User-Agent "^Mister PiX" bad_bot
+SetEnvIfNoCase User-Agent "^Mister Pix II 2.01" bad_bot
+SetEnvIfNoCase User-Agent "^Mister Pix II 2.02a" bad_bot
+SetEnvIfNoCase User-Agent "^Mister PiX version.dll" bad_bot
+SetEnvIfNoCase User-Agent "^Mister.PiX" bad_bot
 SetEnvIfNoCase User-Agent "^MJ12bot" bad_bot
 SetEnvIfNoCase User-Agent "^moget" bad_bot
+SetEnvIfNoCase User-Agent "^moget/2.1" bad_bot
+SetEnvIfNoCase User-Agent "^MOMspider/1.00 libwww-perl/0.40" bad_bot
+SetEnvIfNoCase User-Agent "^Motor/0.2" bad_bot
 SetEnvIfNoCase User-Agent "^Mozilla/3.Mozilla/2.01" bad_bot
 SetEnvIfNoCase User-Agent "^Mozilla.*NEWT" bad_bot
+SetEnvIfNoCase User-Agent "^MSIECrawler" bad_bot
 SetEnvIfNoCase User-Agent "^NAMEPROTECT" bad_bot
+SetEnvIfNoCase User-Agent "^naver" bad_bot
 SetEnvIfNoCase User-Agent "^Navroad" bad_bot
 SetEnvIfNoCase User-Agent "^NearSite" bad_bot
+SetEnvIfNoCase User-Agent "^NeoScioCrawler" bad_bot
 SetEnvIfNoCase User-Agent "^Net\ Vampire" bad_bot
+SetEnvIfNoCase User-Agent "^Net Vampire" bad_bot
+SetEnvIfNoCase User-Agent "^Net Vampire/3.0" bad_bot
 SetEnvIfNoCase User-Agent "^NetAnts" bad_bot
+SetEnvIfNoCase User-Agent "^NetAnts/1.10" bad_bot
+SetEnvIfNoCase User-Agent "^NetAnts/1.23" bad_bot
+SetEnvIfNoCase User-Agent "^NetAnts/1.24" bad_bot
+SetEnvIfNoCase User-Agent "^NetAnts/1.25" bad_bot
+SetEnvIfNoCase User-Agent "^NetCarta CyberPilot Pro" bad_bot
 SetEnvIfNoCase User-Agent "^Netcraft" bad_bot
 SetEnvIfNoCase User-Agent "^NetMechanic" bad_bot
+SetEnvIfNoCase User-Agent "^NetScoop/1.0 libwww/5.0a" bad_bot
 SetEnvIfNoCase User-Agent "^Netsparker" bad_bot
 SetEnvIfNoCase User-Agent "^NetSpider" bad_bot
 SetEnvIfNoCase User-Agent "^NetZIP" bad_bot
+SetEnvIfNoCase User-Agent "^NetZip Downloader 1.0 Win32(Nov 12 1998)" bad_bot
+SetEnvIfNoCase User-Agent "^NetZip-Downloader/1.0.62 (Win32; Dec 7 1998)" bad_bot
+SetEnvIfNoCase User-Agent "^NetZippy+(http://www.innerprise.net/usp-spider.asp)" bad_bot
 SetEnvIfNoCase User-Agent "^NextGenSearchBot" bad_bot
 SetEnvIfNoCase User-Agent "^NG" bad_bot
+SetEnvIfNoCase User-Agent "^NHSEWalker/3.0" bad_bot
 SetEnvIfNoCase User-Agent "^NICErsPRO" bad_bot
 SetEnvIfNoCase User-Agent "^niki-bot" bad_bot
 SetEnvIfNoCase User-Agent "^NimbleCrawler" bad_bot
 SetEnvIfNoCase User-Agent "^Ninja" bad_bot
+SetEnvIfNoCase User-Agent "^Nomad-V2.x" bad_bot
 SetEnvIfNoCase User-Agent "^NPbot" bad_bot
+SetEnvIfNoCase User-Agent "^Nutch" bad_bot
+SetEnvIfNoCase User-Agent "^Occam/1.0" bad_bot
 SetEnvIfNoCase User-Agent "^Octopus" bad_bot
 SetEnvIfNoCase User-Agent "^Offline\ Explorer" bad_bot
+SetEnvIfNoCase User-Agent "^Offline.Explorer" bad_bot
+SetEnvIfNoCase User-Agent "^Offline Explorer" bad_bot
+SetEnvIfNoCase User-Agent "^Offline Explorer/1.2" bad_bot
+SetEnvIfNoCase User-Agent "^Offline Explorer/1.4" bad_bot
+SetEnvIfNoCase User-Agent "^Offline Explorer/1.6" bad_bot
+SetEnvIfNoCase User-Agent "^Offline Explorer/1.7" bad_bot
+SetEnvIfNoCase User-Agent "^Offline Explorer/1.9" bad_bot
+SetEnvIfNoCase User-Agent "^Offline Explorer/2.0" bad_bot
+SetEnvIfNoCase User-Agent "^Offline Explorer/2.1" bad_bot
+SetEnvIfNoCase User-Agent "^Offline Explorer/2.3" bad_bot
+SetEnvIfNoCase User-Agent "^Offline Explorer/2.4" bad_bot
+SetEnvIfNoCase User-Agent "^Offline Explorer/2.5" bad_bot
 SetEnvIfNoCase User-Agent "^Offline\ Navigator" bad_bot
+SetEnvIfNoCase User-Agent "^Offline Navigator" bad_bot
+SetEnvIfNoCase User-Agent "^OGspider" bad_bot
+SetEnvIfNoCase User-Agent "^Open Text Site Crawler V1.0" bad_bot
+SetEnvIfNoCase User-Agent "^Openbot" bad_bot
 SetEnvIfNoCase User-Agent "^Openfind" bad_bot
+SetEnvIfNoCase User-Agent "^Openfind data gatherer" bad_bot
+SetEnvIfNoCase User-Agent "^Oracle Ultra Search" bad_bot
 SetEnvIfNoCase User-Agent "^OutfoxBot" bad_bot
 SetEnvIfNoCase User-Agent "^PageGrabber" bad_bot
 SetEnvIfNoCase User-Agent "^Papa\ Foto" bad_bot
+SetEnvIfNoCase User-Agent "^Papa Foto" bad_bot
 SetEnvIfNoCase User-Agent "^pavuk" bad_bot
 SetEnvIfNoCase User-Agent "^pcBrowser" bad_bot
+SetEnvIfNoCase User-Agent "^PerMan" bad_bot
+SetEnvIfNoCase User-Agent "^PGP-KA/1.2" bad_bot
 SetEnvIfNoCase User-Agent "^PHP\ version\ tracker" bad_bot
 SetEnvIfNoCase User-Agent "^Pockey" bad_bot
 SetEnvIfNoCase User-Agent "^ProPowerBot/2.14" bad_bot
 SetEnvIfNoCase User-Agent "^ProWebWalker" bad_bot
 SetEnvIfNoCase User-Agent "^psbot" bad_bot
 SetEnvIfNoCase User-Agent "^Pump" bad_bot
+SetEnvIfNoCase User-Agent "^Python-urllib" bad_bot
 SetEnvIfNoCase User-Agent "^QueryN.Metasearch" bad_bot
+SetEnvIfNoCase User-Agent "^QueryN Metasearch" bad_bot
+SetEnvIfNoCase User-Agent "^R6_CommentReader" bad_bot
+SetEnvIfNoCase User-Agent "^R6_FeedFetcher" bad_bot
+SetEnvIfNoCase User-Agent "^Radiation Retriever 1.1" bad_bot
 SetEnvIfNoCase User-Agent "^RealDownload" bad_bot
+SetEnvIfNoCase User-Agent "^RealDownload/4.0.0.40" bad_bot
+SetEnvIfNoCase User-Agent "^RealDownload/4.0.0.41" bad_bot
+SetEnvIfNoCase User-Agent "^RealDownload/4.0.0.42" bad_bot
 SetEnvIfNoCase User-Agent "^Reaper" bad_bot
 SetEnvIfNoCase User-Agent "^Recorder" bad_bot
 SetEnvIfNoCase User-Agent "^ReGet" bad_bot
 SetEnvIfNoCase User-Agent "^RepoMonkey" bad_bot
+SetEnvIfNoCase User-Agent "^RepoMonkey Bait & Tackle/v1.01" bad_bot
+SetEnvIfNoCase User-Agent "^Resume Robot" bad_bot
 SetEnvIfNoCase User-Agent "^RMA" bad_bot
 SetEnvIfNoCase User-Agent "^rogerbot" bad_bot
+SetEnvIfNoCase User-Agent "^Roverbot" bad_bot
+SetEnvIfNoCase User-Agent "^SafetyNet Robot 0.1" bad_bot
+SetEnvIfNoCase User-Agent "^searchpreview" bad_bot
 SetEnvIfNoCase User-Agent "^SemrushBot" bad_bot
+SetEnvIfNoCase User-Agent "^Senrigan/xxxxxx" bad_bot
 SetEnvIfNoCase User-Agent "^Siphon" bad_bot
 SetEnvIfNoCase User-Agent "^SiteSnagger" bad_bot
 SetEnvIfNoCase User-Agent "^SlySearch" bad_bot
 SetEnvIfNoCase User-Agent "^SmartDownload" bad_bot
+SetEnvIfNoCase User-Agent "^SmartDownload/1.2.76 (Win32; Apr 1 1999)" bad_bot
+SetEnvIfNoCase User-Agent "^SmartDownload/1.2.77 (Win32; Aug 17 1999)" bad_bot
+SetEnvIfNoCase User-Agent "^SmartDownload/1.2.77 (Win32; Feb 1 2000)" bad_bot
+SetEnvIfNoCase User-Agent "^SmartDownload/1.2.77 (Win32; Jun 19 2001)" bad_bot
 SetEnvIfNoCase User-Agent "^Snake" bad_bot
 SetEnvIfNoCase User-Agent "^Snapbot" bad_bot
+SetEnvIfNoCase User-Agent "^Snooper/b97_01" bad_bot
 SetEnvIfNoCase User-Agent "^Snoopy" bad_bot
 SetEnvIfNoCase User-Agent "^sogou" bad_bot
+SetEnvIfNoCase User-Agent "^Solbot/1.0 LWP/5.07" bad_bot
+SetEnvIfNoCase User-Agent "^sootle" bad_bot
 SetEnvIfNoCase User-Agent "^SpaceBison" bad_bot
 SetEnvIfNoCase User-Agent "^SpankBot" bad_bot
 SetEnvIfNoCase User-Agent "^spanner" bad_bot
+SetEnvIfNoCase User-Agent "^Spanner/1.0 (Linux 2.0.27 i586)" bad_bot
+SetEnvIfNoCase User-Agent "^spyder3.microsys.com" bad_bot
 SetEnvIfNoCase User-Agent "^Sqworm" bad_bot
+SetEnvIfNoCase User-Agent "^Sqworm/2.9.85-BETA (beta_release; 20011115-775; i686-pc-linux" bad_bot
 SetEnvIfNoCase User-Agent "^Stripper" bad_bot
 SetEnvIfNoCase User-Agent "^Sucker" bad_bot
 SetEnvIfNoCase User-Agent "^SuperBot" bad_bot
+SetEnvIfNoCase User-Agent "^SuperBot/3.0 (Win32)" bad_bot
+SetEnvIfNoCase User-Agent "^SuperBot/3.1 (Win32)" bad_bot
 SetEnvIfNoCase User-Agent "^SuperHTTP" bad_bot
+SetEnvIfNoCase User-Agent "^SuperHTTP/1.0" bad_bot
 SetEnvIfNoCase User-Agent "^Surfbot" bad_bot
 SetEnvIfNoCase User-Agent "^suzuran" bad_bot
 SetEnvIfNoCase User-Agent "^Szukacz/1.4" bad_bot
 SetEnvIfNoCase User-Agent "^tAkeOut" bad_bot
 SetEnvIfNoCase User-Agent "^Teleport" bad_bot
+SetEnvIfNoCase User-Agent "^Teleport Pro" bad_bot
+SetEnvIfNoCase User-Agent "^Teleport Pro/1.29" bad_bot
+SetEnvIfNoCase User-Agent "^Teleport Pro/1.29.1590" bad_bot
+SetEnvIfNoCase User-Agent "^Teleport Pro/1.29.1634" bad_bot
+SetEnvIfNoCase User-Agent "^Teleport Pro/1.29.1718" bad_bot
+SetEnvIfNoCase User-Agent "^Teleport Pro/1.29.1820" bad_bot
+SetEnvIfNoCase User-Agent "^Teleport Pro/1.29.1847" bad_bot
+SetEnvIfNoCase User-Agent "^TeleportPro" bad_bot
 SetEnvIfNoCase User-Agent "^Telesoft" bad_bot
+SetEnvIfNoCase User-Agent "^The Intraformant" bad_bot
 SetEnvIfNoCase User-Agent "^The.Intraformant" bad_bot
 SetEnvIfNoCase User-Agent "^TheNomad" bad_bot
 SetEnvIfNoCase User-Agent "^TightTwatBot" bad_bot
 SetEnvIfNoCase User-Agent "^Titan" bad_bot
+SetEnvIfNoCase User-Agent "^toCrawl/UrlDispatcher" bad_bot
 SetEnvIfNoCase User-Agent "^True_Robot" bad_bot
+SetEnvIfNoCase User-Agent "^True_Robot/1.0" bad_bot
 SetEnvIfNoCase User-Agent "^turingos" bad_bot
 SetEnvIfNoCase User-Agent "^TurnitinBot" bad_bot
 SetEnvIfNoCase User-Agent "^TurnitinBot/1.5" bad_bot
+SetEnvIfNoCase User-Agent "^UCSD-Crawler" bad_bot
+SetEnvIfNoCase User-Agent "^UnisterBot" bad_bot
+SetEnvIfNoCase User-Agent "^UnwindFetchor/1.0" bad_bot
+SetEnvIfNoCase User-Agent "^URL Control" bad_bot
+SetEnvIfNoCase User-Agent "^URLSpiderPro" bad_bot
+SetEnvIfNoCase User-Agent "^urlck/1.2.3" bad_bot
+SetEnvIfNoCase User-Agent "^URLy Warning" bad_bot
 SetEnvIfNoCase User-Agent "^URLy.Warning" bad_bot
 SetEnvIfNoCase User-Agent "^Vacuum" bad_bot
+SetEnvIfNoCase User-Agent "^Valkyrie/1.0 libwww-perl/0.40" bad_bot
+SetEnvIfNoCase User-Agent "^vBSEO" bad_bot
 SetEnvIfNoCase User-Agent "^VCI" bad_bot
+SetEnvIfNoCase User-Agent "^VCI WebViewer VCI WebViewer Win32" bad_bot
 SetEnvIfNoCase User-Agent "^Vegi bot" bad_bot
 SetEnvIfNoCase User-Agent "^VoidEYE" bad_bot
 SetEnvIfNoCase User-Agent "^Web\ Image\ Collector" bad_bot
+SetEnvIfNoCase User-Agent "^Web.Image.Collector" bad_bot
+SetEnvIfNoCase User-Agent "^Web Image Collector" bad_bot
 SetEnvIfNoCase User-Agent "^Web\ Sucker" bad_bot
+SetEnvIfNoCase User-Agent "^Web Sucker" bad_bot
 SetEnvIfNoCase User-Agent "^Web.Image.Collector" bad_bot
 SetEnvIfNoCase User-Agent "^WebAuto" bad_bot
+SetEnvIfNoCase User-Agent "^WebAuto/3.40 (Win98; I)" bad_bot
 SetEnvIfNoCase User-Agent "^WebBandit" bad_bot
+SetEnvIfNoCase User-Agent "^WebBandit/3.50" bad_bot
+SetEnvIfNoCase User-Agent "^WebCapture 2.0" bad_bot
 SetEnvIfNoCase User-Agent "^Webclipping.com" bad_bot
 SetEnvIfNoCase User-Agent "^WebCopier" bad_bot
+SetEnvIfNoCase User-Agent "^WebCopier v.2.2" bad_bot
+SetEnvIfNoCase User-Agent "^WebCopier v2.5" bad_bot
+SetEnvIfNoCase User-Agent "^WebCopier v2.6" bad_bot
+SetEnvIfNoCase User-Agent "^WebCopier v2.7a" bad_bot
+SetEnvIfNoCase User-Agent "^WebCopier v2.8" bad_bot
+SetEnvIfNoCase User-Agent "^WebCopier v3.0" bad_bot
+SetEnvIfNoCase User-Agent "^WebCopier v3.0.1" bad_bot
+SetEnvIfNoCase User-Agent "^WebCopier v3.2" bad_bot
+SetEnvIfNoCase User-Agent "^WebCopier v3.2a" bad_bot
+SetEnvIfNoCase User-Agent "^WebCopy/" bad_bot
+SetEnvIfNoCase User-Agent "^WebCrawler/3.0 Robot libwww/5.0a" bad_bot
 SetEnvIfNoCase User-Agent "^WebEMailExtrac.*" bad_bot
 SetEnvIfNoCase User-Agent "^WebEnhancer" bad_bot
+SetEnvIfNoCase User-Agent "^WebFerret" bad_bot
 SetEnvIfNoCase User-Agent "^WebFetch" bad_bot
+SetEnvIfNoCase User-Agent "^webfetch/2.1.0" bad_bot
+SetEnvIfNoCase User-Agent "^WebFetcher/0.8," bad_bot
 SetEnvIfNoCase User-Agent "^WebGo\ IS" bad_bot
+SetEnvIfNoCase User-Agent "^WebGo IS" bad_bot
+SetEnvIfNoCase User-Agent "^weblayers/0.0" bad_bot
 SetEnvIfNoCase User-Agent "^WebLeacher" bad_bot
+SetEnvIfNoCase User-Agent "^WebLinker/0.0 libwww-perl/0.1" bad_bot
+SetEnvIfNoCase User-Agent "^WebmasterWorld Extractor" bad_bot
 SetEnvIfNoCase User-Agent "^WebmasterWorldForumBot" bad_bot
+SetEnvIfNoCase User-Agent "^WebMoose/0.0.0000" bad_bot
 SetEnvIfNoCase User-Agent "^WebReaper" bad_bot
+SetEnvIfNoCase User-Agent "^WebReaper [info@webreaper.net]" bad_bot
+SetEnvIfNoCase User-Agent "^WebReaper [webreaper@otway.com]" bad_bot
+SetEnvIfNoCase User-Agent "^WebReaper v9.1 - www.otway.com/webreaper" bad_bot
+SetEnvIfNoCase User-Agent "^WebReaper v9.7 - www.webreaper.net" bad_bot
+SetEnvIfNoCase User-Agent "^WebReaper v9.8 - www.webreaper.net" bad_bot
+SetEnvIfNoCase User-Agent "^WebReaper vWebReaper v7.3 - www,otway.com/webreaper" bad_bot
+SetEnvIfNoCase User-Agent "^webs@recruit.co.jp" bad_bot
 SetEnvIfNoCase User-Agent "^WebSauger" bad_bot
+SetEnvIfNoCase User-Agent "^WebSauger 1.20b" bad_bot
+SetEnvIfNoCase User-Agent "^WebSauger 1.20j" bad_bot
+SetEnvIfNoCase User-Agent "^WebSauger 1.20k" bad_bot
 SetEnvIfNoCase User-Agent "^Website\ eXtractor" bad_bot
+SetEnvIfNoCase User-Agent "^Website eXtractor" bad_bot
 SetEnvIfNoCase User-Agent "^Website\ Quester" bad_bot
+SetEnvIfNoCase User-Agent "^Website.Quester" bad_bot
+SetEnvIfNoCase User-Agent "^Website Quester" bad_bot
+SetEnvIfNoCase User-Agent "^Website Quester - www.asona.org" bad_bot
+SetEnvIfNoCase User-Agent "^Website Quester - www.esalesbiz.com/extra/" bad_bot
 SetEnvIfNoCase User-Agent "^Webster" bad_bot
+SetEnvIfNoCase User-Agent "^Webster.Pro" bad_bot
+SetEnvIfNoCase User-Agent "^Webster Pro" bad_bot
 SetEnvIfNoCase User-Agent "^WebStripper" bad_bot
+SetEnvIfNoCase User-Agent "^WebStripper/2.03" bad_bot
+SetEnvIfNoCase User-Agent "^WebStripper/2.10" bad_bot
+SetEnvIfNoCase User-Agent "^WebStripper/2.12" bad_bot
+SetEnvIfNoCase User-Agent "^WebStripper/2.13" bad_bot
+SetEnvIfNoCase User-Agent "^WebStripper/2.15" bad_bot
+SetEnvIfNoCase User-Agent "^WebStripper/2.16" bad_bot
+SetEnvIfNoCase User-Agent "^WebStripper/2.19" bad_bot
+SetEnvIfNoCase User-Agent "^WebVac" bad_bot
+SetEnvIfNoCase User-Agent "^webvac/1.0" bad_bot
+SetEnvIfNoCase User-Agent "^webwalk" bad_bot
+SetEnvIfNoCase User-Agent "^WebWalker" bad_bot
+SetEnvIfNoCase User-Agent "^WebWalker/1.10" bad_bot
+SetEnvIfNoCase User-Agent "^WebWatch" bad_bot
 SetEnvIfNoCase User-Agent "^WebWhacker" bad_bot
 SetEnvIfNoCase User-Agent "^WebZIP" bad_bot
+SetEnvIfNoCase User-Agent "^WebZIP/2.75 (http://www.spidersoft.com)" bad_bot
+SetEnvIfNoCase User-Agent "^WebZIP/3.65 (http://www.spidersoft.com)" bad_bot
+SetEnvIfNoCase User-Agent "^WebZIP/3.80 (http://www.spidersoft.com)" bad_bot
+SetEnvIfNoCase User-Agent "^WebZip/4.0" bad_bot
+SetEnvIfNoCase User-Agent "^WebZIP/4.0 (http://www.spidersoft.com)" bad_bot
+SetEnvIfNoCase User-Agent "^WebZIP/4.1 (http://www.spidersoft.com)" bad_bot
+SetEnvIfNoCase User-Agent "^WebZIP/4.21" bad_bot
+SetEnvIfNoCase User-Agent "^WebZIP/4.21 (http://www.spidersoft.com)" bad_bot
+SetEnvIfNoCase User-Agent "^WebZIP/5.0" bad_bot
+SetEnvIfNoCase User-Agent "^WebZIP/5.0 (http://www.spidersoft.com)" bad_bot
+SetEnvIfNoCase User-Agent "^WebZIP/5.0 PR1 (http://www.spidersoft.com)" bad_bot
+SetEnvIfNoCase User-Agent "^Wget" bad_bot
+SetEnvIfNoCase User-Agent "^wget" bad_bot
+SetEnvIfNoCase User-Agent "^Wget/1.4.0" bad_bot
+SetEnvIfNoCase User-Agent "^Wget/1.5.2" bad_bot
+SetEnvIfNoCase User-Agent "^Wget/1.5.3" bad_bot
+SetEnvIfNoCase User-Agent "^Wget/1.6" bad_bot
+SetEnvIfNoCase User-Agent "^Wget/1.7" bad_bot
+SetEnvIfNoCase User-Agent "^Wget/1.8" bad_bot
+SetEnvIfNoCase User-Agent "^Wget/1.8.1" bad_bot
+SetEnvIfNoCase User-Agent "^Wget/1.8.1+cvs" bad_bot
+SetEnvIfNoCase User-Agent "^Wget/1.8.2" bad_bot
+SetEnvIfNoCase User-Agent "^Wget/1.9-beta" bad_bot
 SetEnvIfNoCase User-Agent "^Whacker" bad_bot
+SetEnvIfNoCase User-Agent "^WhoWhere Robot" bad_bot
 SetEnvIfNoCase User-Agent "^Widow" bad_bot
+SetEnvIfNoCase User-Agent "^wired-digital-newsbot/1.5" bad_bot
 SetEnvIfNoCase User-Agent "^WISENutbot" bad_bot
+SetEnvIfNoCase User-Agent "^WWW Collector" bad_bot
 SetEnvIfNoCase User-Agent "^WWW-Collector-E" bad_bot
+SetEnvIfNoCase User-Agent "^www.freeloader.com." bad_bot
 SetEnvIfNoCase User-Agent "^WWWOFFLE" bad_bot
+SetEnvIfNoCase User-Agent "^WWWWanderer v3.0" bad_bot
 SetEnvIfNoCase User-Agent "^Xaldon" bad_bot
+SetEnvIfNoCase User-Agent "^Xaldon_WebSpider" bad_bot
+SetEnvIfNoCase User-Agent "^Xaldon WebSpider" bad_bot
+SetEnvIfNoCase User-Agent "^Xaldon WebSpider 2.5.b3" bad_bot
 SetEnvIfNoCase User-Agent "^Xenu" bad_bot
+SetEnvIfNoCase User-Agent "^Xenu's" bad_bot
+SetEnvIfNoCase User-Agent "^Xenu's Link Sleuth 1.1c" bad_bot
+SetEnvIfNoCase User-Agent "^XGET/0.7" bad_bot
+SetEnvIfNoCase User-Agent "^Yasaklibot" bad_bot
+SetEnvIfNoCase User-Agent "^yes" bad_bot
+SetEnvIfNoCase User-Agent "^YesupBot" bad_bot
+SetEnvIfNoCase User-Agent "^Yeti" bad_bot
 SetEnvIfNoCase User-Agent "^Zeus" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 11389 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 11652 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 18018 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 26378 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 30747 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 32297 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 39206 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 41641 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 44238 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 51070 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 51674 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 51837 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 63567 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 6694 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 82016 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 82900 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 84842 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 90872 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 94934 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 95245 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 95351 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus 97371 Webster Pro V2.9 Win32" bad_bot
+SetEnvIfNoCase User-Agent "^Zeus Link Scout" bad_bot
 SetEnvIfNoCase User-Agent "^ZmEu" bad_bot
 SetEnvIfNoCase User-Agent "^Zyborg" bad_bot
+SetEnvIfNoCase User-Agent "^ZyBorg" bad_bot
 
 
 # Vulnerability Scanners
